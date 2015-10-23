@@ -91,7 +91,6 @@ defmodule Addict.Controller do
    Default controller used by Addict
    """
   use Phoenix.Controller
-  plug :action
   use Addict.BaseController
 
 end
